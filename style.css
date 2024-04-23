@@ -347,6 +347,9 @@ footer{
     header nav{
         display: none;
     }
+    h2{
+        font-size: 15px;
+    }
     main{
         padding: 1rem;
     }
@@ -356,7 +359,27 @@ footer{
         gap: 10px;
 
     }
+    .gauche{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
     #hero .gauche h1{
         font-size: 40px;
+    }
+            /*Services*/
+
+    .services-liste{
+    flex-direction: column;
+    gap: 2rem;
+    }
+
+    /*contact*/
+
+    #contact{
+        flex-direction: column-reverse;
+        min-height: 100vh;
     }
 }
